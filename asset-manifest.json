@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/weather-website/static/js/main.44e904aa.js",
+    "static/media/mist-night.jpg": "/weather-website/static/media/mist-night.93aa02b1a32093a688df.jpg",
+    "static/media/snow.jpg": "/weather-website/static/media/snow.74e1cecfc354325124dc.jpg",
+    "static/media/clouds-night.jpg": "/weather-website/static/media/clouds-night.cf1aacc3e13c399321cb.jpg",
+    "static/media/clouds-day.jpg": "/weather-website/static/media/clouds-day.db2e8e2420d433cc6578.jpg",
+    "static/media/rain-day.jpg": "/weather-website/static/media/rain-day.19554481d8dd426fbb8a.jpg",
+    "static/media/mist-day.jpg": "/weather-website/static/media/mist-day.fea1e3add10cde096d26.jpg",
+    "static/media/clear-sky-night.jpg": "/weather-website/static/media/clear-sky-night.fb316b5f2c546650d33c.jpg",
+    "static/media/thunderstorm.jpg": "/weather-website/static/media/thunderstorm.dc7a292e1c92b9722565.jpg",
+    "static/media/clear-sky-day.jpg": "/weather-website/static/media/clear-sky-day.bb9e3a26b9c4c1b22779.jpg",
+    "index.html": "/weather-website/index.html",
+    "main.44e904aa.js.map": "/weather-website/static/js/main.44e904aa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.44e904aa.js"
+  ]
+}
