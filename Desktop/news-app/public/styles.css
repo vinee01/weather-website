@@ -1,0 +1,157 @@
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-text-color);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text-color);
+    line-height: 1.4rem;
+}
+
+.card-title, .nav-link {
+    color: var(--primary-text-color);
+}
+
+/* Navbar */
+
+.navbar-section {
+    margin: 1% 5%;
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+}
+
+.navbar-brand {
+    color: var(--primary-text-color);
+}
+
+.navbar-nav {
+    gap: 0.5rem;
+}
+
+.nav-link:hover  {
+    color: var(--secondary-text-color);
+}
+
+/* News-section */
+
+.news-section {
+    margin: 1% 5%;
+}
+
+
+/* News card */
+
+.news-card {
+    margin: 10px;
+    width: 24rem;
+    box-shadow: 0 0 5px #d4ecff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.news-card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-5px);
+}
+
+.read-more-link a{
+    text-decoration: none;
+}
+
+.link-icon {
+    height: 10px;
+}
+
+.news-heading {
+    margin: 2rem 0 2rem 0;
+}
+
+.search-box {
+    max-width: 20rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.search-box input {
+    border: 1px solid #0d6efd;
+    border-radius: 0;
+    border-radius: 7px 0 0 7px;
+}
+
+.search-box :focus {
+    box-shadow: none;
+}
+
+.search-button {
+    border-radius: 0 7px 7px 0;
+}
+
+.news-date {
+    font-size: 0.8rem;
+    color: var(--primary-text-color);
+    margin: 1rem 0 1rem 0;
+}
+
+.pageNumber {
+    margin: 0;
+}
+
+.page-div {
+    gap: 1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+/* loading div */
+
+.loading-div {
+    height: 100vh;
+}
+
+/* upward button div */
+.upward-button {
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    text-align: right;
+}
+
+/* footer */
+.footer {
+    margin: 5rem 0 5rem 0;
+}
+
+.footer-icon {
+    margin: 0 0.6rem 0 0.6rem;
+}
+
+.footer-text {
+    margin-top: 0.6rem;
+}
+
+.footer-icons {
+    color: var(--secondary-text-color);
+}
+
+/* media queries */
+
+@media (max-width: 770px) {
+    .news-card {
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        gap: 0;
+    }
+}
